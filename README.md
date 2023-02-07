@@ -83,14 +83,17 @@ _Adicionalmente se usaron librerías especializadas para el análisis de las var
 
 ## Ejemplo de los modelos en Colab⌨️
 
-* **Modelo de redes neuronales artificiales:** En este Colab está un ejemplo completo del modelo de redes neuronales artificiales
-[![Open In Colab](https://colab.research.google.com/drive/1RPVJYsLbxpMuZdCMuwng8fdKhc5BvfVX)](LINK DE COLAB)
+En este Colab está un ejemplo completo del uso de las funciones y el proceso automático para aplicarlas en un archivo de excel. Para abrirlo de click en el siguiente ícono: 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xms3EEhLpyYVl7YiIcuiTqt-IsWStdxS#scrollTo=ZwSqdcHlWbe9)
+
+* **Modelo de redes neuronales artificiales:** En este Colab está un ejemplo completo del modelo de redes neuronales artificiales. Para abrirlo de click en el siguiente ícono: 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RPVJYsLbxpMuZdCMuwng8fdKhc5BvfVX)
 
 * **Modelo de bosques aleatorios:** En este Colab está un ejemplo completo del modelo de bosques aleatorios
-[![Open In Colab](https://colab.research.google.com/drive/1NVgu8JpfByEX-w4MUNyjwoWlWmtNP8Bk)](LINK DE COLAB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NVgu8JpfByEX-w4MUNyjwoWlWmtNP8Bk)
 
 * **Modelo de máquinas de soporte vectorial:** En este Colab está un ejemplo completo del modelo de máquinas de soporte vectorial
-[![Open In Colab](https://colab.research.google.com/drive/1sdXfM56fj4yaRhbNbF8qRo6O_2O3t0M4)](LINK DE COLAB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sdXfM56fj4yaRhbNbF8qRo6O_2O3t0M4)
 
 
 _Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y el rendimiento del algoritmo mediante la precisión, función de pérdida, matriz de confusión, curva ROC y el valor AUC._
