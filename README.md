@@ -56,6 +56,10 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 * **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. Para abrirlo de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)
 
+### Remoción de multicolinealidad: Análisis de componentes principales (PCA) 📖
+
+* **PCA:** En este Colab está un ejemplo completo de la transformación de los datos con la técnica PCA. Estos serán los nuevos insumos para el entrenamiento de los modelos y el cálculo de la probabilidad. Para abrirlo de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qn98JY7233pawnWfeve0OufgNx-jsjfD#scrollTo=pt-SCkOw2qP6)
+
 
 ### Técnicas de Aprendizaje Automático 📖
 
