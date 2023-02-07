@@ -42,18 +42,19 @@ La información está organizada de la siguiente forma:
 
            🚀 DEP: Columna con las etiquetas de depósito (1) y no-depósito (0)
 
-
-* **01_Training:** datos de entrenamiento de los mapas predictores originales sin la variable X1 
-
-* **02_Training:** datos de entrenamiento de los mapas predictores originales sin las variables X1 y X2
-
-* **03_Training:** datos de entrenamiento transformados con PCA sin la variable X1
-
 * **04_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2
+
+* **04_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11, es decir, con base en el conjunto de datos de entrenamiento de la tabla 04_Training. Con este archivo se realiza la predicción del mapa de probabilidad.
 
 ### Pre-requisitos 📋
 
 _Para ejecutar los códigos en el lenguaje de programación Python se requiere un Entorno de Desarrollo Integrado (IDE). En este caso se usó la plataforma Google Collaboratory (https://colab.research.google.com/)_
+
+### Análisis preliminar de las variables explicatorias 📖
+
+* **Superficies de decisión:** En este Colab está un ejemplo completo de la visualización de los datos. Este paso es importante para determinar los factores condicionantes que pueden resultar desfavorables para la implementación de los algoritmos computacionales. En este caso se analizaron matrices de dispersión entre X1-X11. [![Open In Colab](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)](LINK DE COLAB)
+* **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. [![Open In Colab](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)](LINK DE COLAB)
+
 
 ### Técnicas de Aprendizaje Automático 📖
 
@@ -73,28 +74,33 @@ _Se implementaron las siguientes librerías en el desarrollo de los códigos de 
 * [Keras](https://keras.io/) - Usada para los modelos de redes neuronales artificiales
 * [scikit-learn](https://rometools.github.io/rome/) - Usada para generar el modelo de máquinas de soporte vectorial
 
-_Adicionalmente se usaron librerías especializadas para el análisis de las variables geológicas _
+_Adicionalmente se usaron librerías especializadas para el análisis de las variables geológicas_
 
 * [Pandas](https://pandas.pydata.org/) - Usada para cargar y filtrar los datos de entrenamiento organizados en columnas
 * [Matplotlib](https://matplotlib.org/) - Usada para la visualización de superficies de decisión y gráficos estadísticos
 * [Seaborn](https://seaborn.pydata.org/) - Usada para la visualización estadística de los datos
 * [Numpy](https://numpy.org/) - Usada para operaciones entre vectores y matrices 
 
-## Ejemplo en Colab 
+## Ejemplo de los modelos en Colab⌨️
 
-En este Colab está un ejemplo completo del uso de las funciones y el proceso automático para aplicarlas en un archivo de excel. Para abrirlo de click en el siguiente ícono: 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK DE COLAB)
+* **Modelo de redes neuronales artificiales:** En este Colab está un ejemplo completo del modelo de redes neuronales artificiales
+[![Open In Colab](https://colab.research.google.com/drive/1RPVJYsLbxpMuZdCMuwng8fdKhc5BvfVX)](LINK DE COLAB)
 
-FUNCIONES REPRESENTARLAS ASI <b>cal_thick</b> 
+* **Modelo de bosques aleatorios:** En este Colab está un ejemplo completo del modelo de bosques aleatorios
+[![Open In Colab](https://colab.research.google.com/drive/1NVgu8JpfByEX-w4MUNyjwoWlWmtNP8Bk)](LINK DE COLAB)
 
-
-
-
-
-
+* **Modelo de máquinas de soporte vectorial:** En este Colab está un ejemplo completo del modelo de máquinas de soporte vectorial
+[![Open In Colab](https://colab.research.google.com/drive/1sdXfM56fj4yaRhbNbF8qRo6O_2O3t0M4)](LINK DE COLAB)
 
 
+_Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y el rendimiento del algoritmo mediante la precisión, función de pérdida, matriz de confusión, curva ROC y el valor AUC._
 
+
+## Mapas de probabilidad🤓
+
+<p align="center">
+<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/Data/Fig7_Metodologia - copia.png" width="500">
+</p>
 
 ## Usarlo en el disco local
 
