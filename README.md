@@ -62,7 +62,6 @@ Para separar las clases se genera un límite de decisión que, según el número
 
 
 
-
 ## Librerías usadas en la creación, entrenamiento y predicción de los modelos computacionales 🛠️
 
 _Se implementaron las siguientes librerías en el desarrollo de los códigos de Python_
