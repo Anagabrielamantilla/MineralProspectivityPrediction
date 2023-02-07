@@ -21,16 +21,27 @@ La información está organizada de la siguiente forma:
 📌 X1 : Proximidad a rocas plutónicas
 
 📌 X2: Proximidad a rocas volcánicas
+
 📌 X3: Proximidad a fallas geológicas
+
 📌 X4: Proximidad a contactos de terrenos litotectónicos
+
 📌 X5: Valores del campo total magnético residual
+
 📌 X6: Valores de la primera derivada vertical del campo total magnético residual
+
 📌 X7: Concentración geoquímica de Zn 
+
 📌 X8: Concentración geoquímica de Au
+
 📌 X9: Concentración geoquímica de Cu 
+
 📌 X10: Concentración geoquímica de Mo 
+
 📌 X11: Concentración geoquímica de Pb 
+
 🚀 DEP: Columna con las etiquetas de depósito (1) y no-depósito (0)
+
 
 * **01_Training:** datos de entrenamiento de los mapas predictores originales sin la variable X1 
 
