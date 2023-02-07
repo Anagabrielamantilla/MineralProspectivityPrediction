@@ -51,6 +51,32 @@ La información está organizada de la siguiente forma:
 
 * **04_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2
 
+### Pre-requisitos 📋
+
+_Para ejecutar los códigos en el lenguaje de programación Python se requiere un Entorno de Desarrollo Integrado (IDE). En este caso se usó la plataforma Google Collaboratory (https://colab.research.google.com/)_
+
+### Técnicas de Aprendizaje Automático 📖
+
+La predicción de depósitos minerales consiste en un problema de clasificación binaria, en el cual los datos tienen una etiqueta de 1 (depósito) y 0 (no-depósito). 
+Para separar las clases se genera un límite de decisión que, según el número de dimensiones, puede ser un plano o hiperplano. Por excelencia los algoritmos usados para resolver tareas de clasificación son: redes neuronales artificiales, bosques aleatorios y máquinas de soporte vectorial. 
+
+
+
+
+## Librerías usadas en la creación, entrenamiento y predicción de los modelos computacionales 🛠️
+
+_Se implementaron las siguientes librerías en el desarrollo de los códigos de Python_
+
+* [TensorFlow](https://www.tensorflow.org/?hl=es-419) - Usada para los modelos de redes neuronales artificiales y bosques aleatorios
+* [Keras](https://keras.io/) - Usada para los modelos de redes neuronales artificiales
+* [scikit-learn](https://rometools.github.io/rome/) - Usada para generar el modelo de máquinas de soporte vectorial
+
+_Adicionalmente se usaron librerías especializadas para el análisis de las variables geológicas _
+
+* [Pandas](https://pandas.pydata.org/) - Usada para cargar y filtrar los datos de entrenamiento organizados en columnas
+* [Matplotlib](https://matplotlib.org/) - Usada para la visualización de superficies de decisión y gráficos estadísticos
+* [Seaborn](https://seaborn.pydata.org/) - Usada para la visualización estadística de los datos
+* [Numpy](https://numpy.org/) - Usada para operaciones entre vectores y matrices 
 
 ## Ejemplo en Colab 
 
