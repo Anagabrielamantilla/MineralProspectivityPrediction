@@ -99,7 +99,7 @@ _Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y 
 ## Mapas de probabilidad🤓
 
 <p align="center">
-<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/MapasProbabilidadjpeg.jpg" width="1000">
+<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/MapasProbabilidadjpeg.jpg" width="2000">
 </p>
 
 ## Usarlo en el disco local
