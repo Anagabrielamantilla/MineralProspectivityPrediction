@@ -44,7 +44,7 @@ La información está organizada de la siguiente forma:
 
 * **04_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2
 
-* **04_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11, es decir, con base en el conjunto de datos de entrenamiento de la tabla 04_Training. Con este archivo se realiza la predicción del mapa de probabilidad.
+* **04_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11.Con este archivo se realiza la predicción del mapa de probabilidad. Para descargarlo acceder al siguiente enlace https://correouisedu-my.sharepoint.com/:f:/g/personal/ana_mantilla_correo_uis_edu_co/EnBcbDu57E9EisK3jZRr4ZwBbPvP2Cky9V2F4OLhdWDLvg?e=d8XHLc
 
 ### Pre-requisitos 📋
 
