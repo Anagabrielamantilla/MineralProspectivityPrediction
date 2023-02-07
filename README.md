@@ -62,7 +62,7 @@ La predicción de depósitos minerales consiste en un problema de clasificación
 Para separar las clases se genera un límite de decisión que, según el número de dimensiones, puede ser un plano o hiperplano. Por excelencia los algoritmos usados para resolver tareas de clasificación son: redes neuronales artificiales, bosques aleatorios y máquinas de soporte vectorial. 
 
 <p align="center">
-<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/Fig7_Metodologia - copia.png" width="500">
+<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/Fig7_Metodologia - copia.png" width="1000">
 </p>
 
 
