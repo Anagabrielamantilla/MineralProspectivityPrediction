@@ -52,8 +52,9 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 ### Análisis preliminar de las variables explicatorias 📖
 
-* **Superficies de decisión:** En este Colab está un ejemplo completo de la visualización de los datos. Este paso es importante para determinar los factores condicionantes que pueden resultar desfavorables para la implementación de los algoritmos computacionales. En este caso se analizaron matrices de dispersión entre X1-X11. [![Open In Colab](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)](LINK DE COLAB)
-* **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. [![Open In Colab](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)](LINK DE COLAB)
+* **Superficies de decisión:** En este Colab está un ejemplo completo de la visualización de los datos. Este paso es importante para determinar los factores condicionantes que pueden resultar desfavorables para la implementación de los algoritmos computacionales. En este caso se analizaron matrices de dispersión entre X1-X11. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)
+
+* **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)
 
 
 ### Técnicas de Aprendizaje Automático 📖
@@ -83,9 +84,6 @@ _Adicionalmente se usaron librerías especializadas para el análisis de las var
 
 ## Ejemplo de los modelos en Colab⌨️
 
-En este Colab está un ejemplo completo del uso de las funciones y el proceso automático para aplicarlas en un archivo de excel. Para abrirlo de click en el siguiente ícono: 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xms3EEhLpyYVl7YiIcuiTqt-IsWStdxS#scrollTo=ZwSqdcHlWbe9)
-
 * **Modelo de redes neuronales artificiales:** En este Colab está un ejemplo completo del modelo de redes neuronales artificiales. Para abrirlo de click en el siguiente ícono: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RPVJYsLbxpMuZdCMuwng8fdKhc5BvfVX)
 
@@ -105,15 +103,9 @@ _Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y 
 <img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/MapasProbabilidadjpeg.jpg" width="2000">
 </p>
 
-## Usarlo en el disco local
-
-Para usar en el disco local, se debe descargar la carpeta y usar alguna de las siguientes opciones:
-- Para los usuarios de Jupyter-notebook: Usar el ejemplo presentado en el archivo <b>poligonal.ipynb</b>. 
-- Para los usuarios de spyder u otro IDE:  Usar el ejemplo presentado en el archivo <b>poligonal.py</b>. 
-
 ## ¿Cómo colaborar con el proyecto ? 
 
-Ayúdame difundiendo. Envíame más ejemplos para hacer diferentes test. Encuentra errores y repórtalos en un issue en GitHub.
+Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub.
 
 > Contáctanos
 
