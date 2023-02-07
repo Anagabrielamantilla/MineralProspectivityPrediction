@@ -19,6 +19,7 @@ La información está organizada de la siguiente forma:
 * **00_Training:** corresponde a un muestreo de datos extraído de once mapas predictores que representan: 
 
 📌 X1 : Proximidad a rocas plutónicas
+
 📌 X2: Proximidad a rocas volcánicas
 📌 X3: Proximidad a fallas geológicas
 📌 X4: Proximidad a contactos de terrenos litotectónicos
