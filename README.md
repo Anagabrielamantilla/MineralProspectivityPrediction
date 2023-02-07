@@ -105,10 +105,10 @@ _Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y 
 
 ## ¿Cómo colaborar con el proyecto ? 
 
-Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub.
+Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. También puedes contactarnos por medio de nuestras redes sociales.
 
-> Contáctanos
 
+> Autores ✒️
 
 Ana Mantilla: anagmd2019@gmail.com </br> <a href="https://www.linkedin.com/in/ana-gabriela-mantilla-24377a21a/">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="HTML tutorial" style="width:30px;height:30px;">
