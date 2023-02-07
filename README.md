@@ -52,9 +52,9 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 ### Análisis preliminar de las variables explicatorias 📖
 
-* **Superficies de decisión:** En este Colab está un ejemplo completo de la visualización de los datos. Este paso es importante para determinar los factores condicionantes que pueden resultar desfavorables para la implementación de los algoritmos computacionales. En este caso se analizaron matrices de dispersión entre X1-X11. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)
+* **Superficies de decisión:** En este Colab está un ejemplo completo de la visualización de los datos. Este paso es importante para determinar los factores condicionantes que pueden resultar desfavorables para la implementación de los algoritmos computacionales. En este caso se analizaron matrices de dispersión entre X1-X11. Para abrirlo de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)
 
-* **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)
+* **Matrices de correlación:** En este Colab está un ejemplo completo del cálculo de coeficiente de correlación de Pearson para el análisis de correlación entre las variables de entrada. En este caso se observó que los datos estaban altamente correlacionados, por lo cual se aplicó el análisis de componentes principales para remover la multicolinealidad. Para abrirlo de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)
 
 
 ### Técnicas de Aprendizaje Automático 📖
@@ -87,10 +87,10 @@ _Adicionalmente se usaron librerías especializadas para el análisis de las var
 * **Modelo de redes neuronales artificiales:** En este Colab está un ejemplo completo del modelo de redes neuronales artificiales. Para abrirlo de click en el siguiente ícono: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RPVJYsLbxpMuZdCMuwng8fdKhc5BvfVX)
 
-* **Modelo de bosques aleatorios:** En este Colab está un ejemplo completo del modelo de bosques aleatorios
+* **Modelo de bosques aleatorios:** En este Colab está un ejemplo completo del modelo de bosques aleatorios. Para abrirlo de click en el siguiente ícono: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NVgu8JpfByEX-w4MUNyjwoWlWmtNP8Bk)
 
-* **Modelo de máquinas de soporte vectorial:** En este Colab está un ejemplo completo del modelo de máquinas de soporte vectorial
+* **Modelo de máquinas de soporte vectorial:** En este Colab está un ejemplo completo del modelo de máquinas de soporte vectorial. Para abrirlo de click en el siguiente ícono: 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sdXfM56fj4yaRhbNbF8qRo6O_2O3t0M4)
 
 
