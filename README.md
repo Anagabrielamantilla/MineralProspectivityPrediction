@@ -6,13 +6,38 @@ Este es un código de Python que presenta una aplicación detallada y sistemáti
 artificiales, bosques aleatorios y máquinas de soporte vectorial con el objetivo de representar el problema de predicción mineral como
 un problema de clasificación con superficies de decisión.
 
-Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables explicatorias. 
-Para comprobar la efectividad y el flujo de trabajo propuesto se analizó una zona del territorio de Yukón (Canadá), donde se inició a partir
-de una revisión exhaustiva de las variables o criterios mapeables de exploración relacionados con ocurrencia minerales.
+Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables geológicas en una zona del territorio de Yukón (Canadá), donde se hizo una revisión exhaustiva de los criterios mapeables de exploración relacionados con ocurrencia minerales tipo pórfido.
 
 Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. 
 
+## Base de datos 📋
 
+_Todos los datos usados en este repositorio son de libre acceso y se encuentran en la página del Servicio Geológico de Yukón (https://data.geology.gov.yk.ca/) y el Gobierno de Canadá (https://www.canada.ca/en.html)._
+
+La información está organizada de la siguiente forma: 
+
+* **00_Training:** corresponde a un muestreo de datos extraído de once mapas predictores que representan: 
+
+📌 X1 : Proximidad a rocas plutónicas
+📌 X2: Proximidad a rocas volcánicas
+📌 X3: Proximidad a fallas geológicas
+📌 X4: Proximidad a contactos de terrenos litotectónicos
+📌 X5: Valores del campo total magnético residual
+📌 X6: Valores de la primera derivada vertical del campo total magnético residual
+📌 X7: Concentración geoquímica de Zn 
+📌 X8: Concentración geoquímica de Au
+📌 X9: Concentración geoquímica de Cu 
+📌 X10: Concentración geoquímica de Mo 
+📌 X11: Concentración geoquímica de Pb 
+🚀 DEP: Columna con las etiquetas de depósito (1) y no-depósito (0)
+
+* **01_Training:** datos de entrenamiento de los mapas predictores originales sin la variable X1 
+
+* **02_Training:** datos de entrenamiento de los mapas predictores originales sin las variables X1 y X2
+
+* **03_Training:** datos de entrenamiento transformados con PCA sin la variable X1
+
+* **04_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2
 
 
 ## Ejemplo en Colab 
