@@ -35,7 +35,7 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 * Gráficos de dispersión: se analizaron las matrices de dispersión entre X1-X11. Para abrirlo acceda al archivo '01_dispersion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13sW4n87hn1i6r0d-BIiGUuFE4F82OBtO/view?usp=sharing)
 
-* Matrices de correlación: se calculó la matriz con el coeficiente de correlación de Pearson. Para abrirlo acceda al archivo '02_correlacion' o de click en el siguiente ícono: [![Open In Colab](https://drive.google.com/file/d/1zOMtS2s7J5-P6SW_HDbTmrj9g1EOlOJ1/view?usp=sharing)
+* Matrices de correlación: se calculó la matriz con el coeficiente de correlación de Pearson. Para abrirlo acceda al archivo '02_correlacion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1zOMtS2s7J5-P6SW_HDbTmrj9g1EOlOJ1/view?usp=sharing)
 
 **2. Remoción de la multicolinealidad: Análisis de componentes principales (PCA)** 📖
 
