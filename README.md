@@ -6,7 +6,7 @@ Este es un código de Python que presenta una aplicación detallada y sistemáti
 artificiales, bosques aleatorios y máquinas de soporte vectorial) con el objetivo de representar el problema de predicción mineral como
 un problema de clasificación con superficies de decisión. Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables geológicas en una zona del territorio de Yukón (Canadá), donde se hizo una revisión exhaustiva de los criterios mapeables de exploración relacionados con ocurrencias minerales tipo pórfido.
 
-Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. Este repositorio hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [Predicción mineral](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
+Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. Este repositorio hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [este link](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
 
 ## Base de datos 📋
 
