@@ -33,24 +33,24 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 **1. Análisis preliminar de las variables explicatorias** 📖
 
-* Gráficos de dispersión: se analizaron las matrices de dispersión entre X1-X11. Para abrirlo acceda al archivo '01_dispersion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13sW4n87hn1i6r0d-BIiGUuFE4F82OBtO#scrollTo=3HPuvqlfHCL4)
+* Gráficos de dispersión: se analizaron las matrices de dispersión entre X1-X11. Para abrirlo acceda al archivo '01_dispersion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13sW4n87hn1i6r0d-BIiGUuFE4F82OBtO/view?usp=sharing)
 
-* Matrices de correlación: se calculó la matriz con el coeficiente de correlación de Pearson. Para abrirlo acceda al archivo '02_correlacion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zOMtS2s7J5-P6SW_HDbTmrj9g1EOlOJ1)
+* Matrices de correlación: se calculó la matriz con el coeficiente de correlación de Pearson. Para abrirlo acceda al archivo '02_correlacion' o de click en el siguiente ícono: [![Open In Colab](https://drive.google.com/file/d/1zOMtS2s7J5-P6SW_HDbTmrj9g1EOlOJ1/view?usp=sharing)
 
 **2. Remoción de la multicolinealidad: Análisis de componentes principales (PCA)** 📖
 
-* PCA: dado que el análisis de correlación indicó multicolinealidad entre las variables de entrada, se hizo una transformación a los datos con la técnica de análisis de componentes principales. Estos serán los nuevos insumos para el entrenamiento de los modelos y el cálculo de la probabilidad. Para abrirlo acceda al archivo '03_pca' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BPGBzHiXbRquHcA8pvLo16So9hUFhQGG#scrollTo=zxmIrZzDIUk2)
+* PCA: dado que el análisis de correlación indicó multicolinealidad entre las variables de entrada, se hizo una transformación a los datos con la técnica de análisis de componentes principales. Estos serán los nuevos insumos para el entrenamiento de los modelos y el cálculo de la probabilidad. Para abrirlo acceda al archivo '03_pca' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1BPGBzHiXbRquHcA8pvLo16So9hUFhQGG/view?usp=sharing)
 
 **3. Técnicas de Aprendizaje Automático** 📖
 
 La predicción de depósitos minerales consiste en un problema de clasificación binaria, en el cual los datos tienen una etiqueta de 1 (depósito) y 0 (no-depósito). 
 Para separar las clases se genera un límite de decisión que, según el número de dimensiones, puede ser un plano o hiperplano. Por excelencia los algoritmos usados para resolver tareas de clasificación son: 
 
-* Redes neuronales artificiales: para abrirlo acceda al archivo '04_ann' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HbTMgs4v314ZSNjWyfNdsb8fppiV3lWl#scrollTo=6JUn-GGTL1iQ)
+* Redes neuronales artificiales: para abrirlo acceda al archivo '04_ann' o de click en el siguiente ícono:[![Open In Colab](https://drive.google.com/file/d/1HbTMgs4v314ZSNjWyfNdsb8fppiV3lWl/view?usp=sharing)
 
-* Bosques aleatorios: para abrirlo acceda al archivo '05_rf' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13EUaOpbWdcmTyMq1iBLpogaXlecTlPBX#scrollTo=RqlatjpfNVSc)
+* Bosques aleatorios: para abrirlo acceda al archivo '05_rf' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13EUaOpbWdcmTyMq1iBLpogaXlecTlPBX/view?usp=sharing)
 
-* Máquinas de soporte vectorial: para abrirlo acceda al archivo '06_svm' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MDB1Qri9pjZ2XEXi4NKjaf1YUJl073Cz#scrollTo=ivL4Z11vPNaq)
+* Máquinas de soporte vectorial: para abrirlo acceda al archivo '06_svm' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1MDB1Qri9pjZ2XEXi4NKjaf1YUJl073Cz/view?usp=sharing)
 
 ## ¿Cómo colaborar con el proyecto ? 
 
