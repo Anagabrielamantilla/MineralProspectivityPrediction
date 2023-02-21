@@ -5,11 +5,9 @@
 
 
 ## Descripción del repositorio
-Este es un código de Python que presenta una aplicación detallada y sistemática de los métodos de aprendizaje automático (redes neuronales
-artificiales, bosques aleatorios y máquinas de soporte vectorial) con el objetivo de representar el problema de predicción mineral como
-un problema de clasificación con superficies de decisión. Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables geológicas en una zona del territorio de Yukón (Canadá), donde se hizo una revisión exhaustiva de los criterios mapeables de exploración relacionados con ocurrencias minerales tipo pórfido.
 
-Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. Este repositorio hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [este link](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
+Este repositorio tiene códigos en Python que predicen la probabilidad de ocurrencia mineral en una zona del territorio de Yukón (Canadá) usando redes neuronales
+artificiales, bosques aleatorios y máquinas de soporte vectorial. Este proyecto hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [este link](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
 
 ## Base de datos 📋
 
@@ -19,30 +17,6 @@ La información está organizada de la siguiente forma:
 
 * **00_Training:** corresponde a un muestreo de datos extraído de once mapas predictores que representan: 
 
-           📌 X1 : Proximidad a rocas plutónicas
-
-           📌 X2: Proximidad a rocas volcánicas
-
-           📌 X3: Proximidad a fallas geológicas
-
-           📌 X4: Proximidad a contactos de terrenos litotectónicos
-
-           📌 X5: Valores del campo total magnético residual
-
-           📌 X6: Valores de la primera derivada vertical del campo total magnético residual
-
-           📌 X7: Concentración geoquímica de Zn 
-
-           📌 X8: Concentración geoquímica de Au
-
-           📌 X9: Concentración geoquímica de Cu 
-
-           📌 X10: Concentración geoquímica de Mo 
-
-           📌 X11: Concentración geoquímica de Pb 
-
-           🚀 DEP: Columna con las etiquetas de depósito (1) y no-depósito (0)
-           
 * **00_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un factor condicionante geológico extraído de X1-X11. Para descargarlo acceda al siguiente enlace [Virtual Raster](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EQNRrVHkVXtDqWGktZdeTk0BOgVY7-NYjZdA5DpUPWw9yw?e=9s1VBm)
 
 * **01_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2. Contiene nueve componentes principales. Con estos datos se entrenaron los modelos computacionales. 
@@ -57,15 +31,13 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 
 ### Resumen
 
-El repositorio contiene los notebooks y/o códigos en Python donde se ejecutaron los análisis y los modelos de aprendizaje automático. La información está organizada de la siguiente manera:
-
 **1. Análisis preliminar de las variables explicatorias** 📖
 
 * Gráficos de dispersión: se analizaron las matrices de dispersión entre X1-X11. Para abrirlo acceda al archivo '01_dispersion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ODoKkmPzCfMmDJR9MxsphMwLP6T4iyqg#scrollTo=Uk3LzYphjYWX)
 
 * Matrices de correlación: se calculó la matriz con el coeficiente de correlación de Pearson. Para abrirlo acceda al archivo '02_correlacion' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1J-i5zozBfhTm6Xn2MeTuwR4E6xW_btVG)
 
-**2. Remoción de multicolinealidad: Análisis de componentes principales (PCA)** 📖
+**2. Remoción de la multicolinealidad: Análisis de componentes principales (PCA)** 📖
 
 * PCA: dado que el análisis de correlación indicó multicolinealidad entre las variables de entrada, se hizo una transformación a los datos con la técnica de análisis de componentes principales. Estos serán los nuevos insumos para el entrenamiento de los modelos y el cálculo de la probabilidad. Para abrirlo acceda al archivo '03_pca' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qn98JY7233pawnWfeve0OufgNx-jsjfD#scrollTo=pt-SCkOw2qP6)
 
@@ -79,30 +51,6 @@ Para separar las clases se genera un límite de decisión que, según el número
 * Bosques aleatorios: para abrirlo acceda al archivo '05_rf' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NVgu8JpfByEX-w4MUNyjwoWlWmtNP8Bk)
 
 * Máquinas de soporte vectorial: para abrirlo acceda al archivo '06_svm' o de click en el siguiente ícono: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sdXfM56fj4yaRhbNbF8qRo6O_2O3t0M4)
-
-_Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y el rendimiento del algoritmo mediante la precisión, función de pérdida, matriz de confusión, curva ROC y el valor AUC._
-
-## Mapas de probabilidad🤓
-
-<p align="center">
-<img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/MapasProbabilidad.jpg" width="1000">
-</p>
-
-## Recursos 🛠️
-
-Se implementaron las siguientes librerías en el desarrollo de los códigos de Python
-
-* [TensorFlow](https://www.tensorflow.org/?hl=es-419) - Usada para los modelos de redes neuronales artificiales y bosques aleatorios
-* [Keras](https://keras.io/) - Usada para los modelos de redes neuronales artificiales
-* [scikit-learn](https://rometools.github.io/rome/) - Usada para generar el modelo de máquinas de soporte vectorial
-
-Adicionalmente se usaron librerías especializadas para el análisis de las variables geológicas
-
-* [Pandas](https://pandas.pydata.org/) - Usada para cargar y filtrar los datos de entrenamiento organizados en columnas
-* [Matplotlib](https://matplotlib.org/) - Usada para la visualización de superficies de decisión y gráficos estadísticos
-* [Seaborn](https://seaborn.pydata.org/) - Usada para la visualización estadística de los datos
-* [Numpy](https://numpy.org/) - Usada para operaciones entre vectores y matrices
-
 
 ## ¿Cómo colaborar con el proyecto ? 
 
