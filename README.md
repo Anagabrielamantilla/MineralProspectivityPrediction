@@ -10,7 +10,7 @@ Los resultados obtenidos indican que la incorporación del aprendizaje automáti
 
 ## Base de datos 📋
 
-_Todos los datos usados en este repositorio son de libre acceso y se encuentran en la página del Servicio Geológico de Yukón (https://data.geology.gov.yk.ca/) y el Gobierno de Canadá (https://www.canada.ca/en.html).
+Todos los datos usados en este repositorio son de libre acceso y se encuentran en la página del [Servicio Geológico de Yukón](https://data.geology.gov.yk.ca/) y el [Gobierno de Canadá](https://www.canada.ca/en.html).
 
 La información está organizada de la siguiente forma: 
 
