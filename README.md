@@ -15,7 +15,7 @@ Todos los datos usados en este repositorio son de libre acceso y se encuentran e
 
 La información está organizada de la siguiente forma: 
 
-* **00_Training:** corresponde a un muestreo de datos extraído de once mapas predictores que representan: 
+* **00_Training:** corresponde a un muestreo de datos extraído de once mapas geologicos predictores.
 
 * **00_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un factor condicionante geológico extraído de X1-X11. Para descargarlo acceda al siguiente enlace [Virtual Raster](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EQNRrVHkVXtDqWGktZdeTk0BOgVY7-NYjZdA5DpUPWw9yw?e=9s1VBm)
 
