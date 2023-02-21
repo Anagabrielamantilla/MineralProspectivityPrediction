@@ -7,7 +7,6 @@ artificiales, bosques aleatorios y máquinas de soporte vectorial con el objetiv
 un problema de clasificación con superficies de decisión. Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables geológicas en una zona del territorio de Yukón (Canadá), donde se hizo una revisión exhaustiva de los criterios mapeables de exploración relacionados con ocurrencias minerales tipo pórfido.
 
 Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. Este repositorio hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [Predicción mineral](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
-)
 
 ## Base de datos 📋
 
@@ -41,7 +40,7 @@ La información está organizada de la siguiente forma:
 
            🚀 DEP: Columna con las etiquetas de depósito (1) y no-depósito (0)
            
-* **00_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un factor condicionante geológico extraído de X1-X11. Para descargarlo acceda al siguiente enlace [Virtual Raster] ()
+* **00_Virtual_Raster:** esta capa contiene once bandas. Cada una corresponde a un factor condicionante geológico extraído de X1-X11. Para descargarlo acceda al siguiente enlace [Virtual Raster](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EQNRrVHkVXtDqWGktZdeTk0BOgVY7-NYjZdA5DpUPWw9yw?e=9s1VBm)
 
 * **01_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2. Contiene nueve componentes principales. Con estos datos se entrenaron los modelos computacionales. 
 
