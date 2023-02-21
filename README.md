@@ -57,7 +57,7 @@ Para separar las clases se genera un límite de decisión que, según el número
 Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. También puedes contactarme por medio de mis redes sociales.
 
 
-## Autores ✒️
+## Créditos ✒️
 
 * **Ana Gabriela Mantilla:** anagmd2019@gmail.com </br> <a href="https://www.linkedin.com/in/ana-gabriela-mantilla-24377a21a/">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="HTML tutorial" style="width:30px;height:30px;">
@@ -65,3 +65,12 @@ Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. Tam
 * **Paul Goyes:**   goyes.yesid@gmail.com </br> <a href="https://www.linkedin.com/in/paul-goyes-0212b810/">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="HTML tutorial" style="width:30px;height:30px;">
 </a>
+
+## Cómo citar ✒️
+
+* Mantilla, A. (2023). Predicción de la ocurrencia de depósitos tipo pórfido usando técnicas de aprendizaje automático [Tesis de pregrado inédita]. Universidad Industrial de Santander.
+
+*Este código se encuentra protegido bajo una licencia de libre acceso. Se permite su distribución y/o modificación, siempre y cuando se consideren los créditos correspondientes. Los autores no se hacen responsables del uso de los códigos por parte de terceros.*
+
+
+
