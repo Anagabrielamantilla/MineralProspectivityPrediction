@@ -7,6 +7,7 @@ artificiales, bosques aleatorios y máquinas de soporte vectorial con el objetiv
 un problema de clasificación con superficies de decisión. Se realizó un flujo de preprocesamiento que incluyó la estandarización, el análisis de componentes principales y de distribución de las variables geológicas en una zona del territorio de Yukón (Canadá), donde se hizo una revisión exhaustiva de los criterios mapeables de exploración relacionados con ocurrencias minerales tipo pórfido.
 
 Los resultados obtenidos indican que la incorporación del aprendizaje automático en el flujo de trabajo de exploración mineral supone una mejora considerable en la optimización de recursos y el grado de confiabilidad en los objetivos de exploración. Este repositorio hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [Predicción mineral]()
+)
 
 ## Base de datos 📋
 
@@ -44,7 +45,7 @@ La información está organizada de la siguiente forma:
 
 * **01_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2. Contiene nueve componentes principales. Con estos datos se entrenaron los modelos computacionales. 
 
-* **01_Virtual_Raster:** esta capa contiene nueve bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11.Con este archivo se realiza la predicción del mapa de probabilidad. Para descargarlo acceda al siguiente enlace [Virtual Raster con PCA] (https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EUA5rItvv6JHogINDYS0gJEB8kBQ3PA75Wjof47Sn_6rhQ?e=wO0LDs)
+* **01_Virtual_Raster:** esta capa contiene nueve bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11.Con este archivo se realiza la predicción del mapa de probabilidad. Para descargarlo acceda al siguiente enlace [Virtual Raster con PCA](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EUA5rItvv6JHogINDYS0gJEB8kBQ3PA75Wjof47Sn_6rhQ?e=wO0LDs)
 
 ### Pre-requisitos 📋
 
@@ -83,9 +84,25 @@ _Al final del entrenamiento de los modelos se evaluó la capacidad predictiva y 
 <img src="https://github.com/Anagabrielamantilla/MineralPrediction/blob/main/MapasProbabilidad.jpg" width="1000">
 </p>
 
+## Recursos 🛠️
+
+Se implementaron las siguientes librerías en el desarrollo de los códigos de Python
+
+* [TensorFlow](https://www.tensorflow.org/?hl=es-419) - Usada para los modelos de redes neuronales artificiales y bosques aleatorios
+* [Keras](https://keras.io/) - Usada para los modelos de redes neuronales artificiales
+* [scikit-learn](https://rometools.github.io/rome/) - Usada para generar el modelo de máquinas de soporte vectorial
+
+Adicionalmente se usaron librerías especializadas para el análisis de las variables geológicas
+
+* [Pandas](https://pandas.pydata.org/) - Usada para cargar y filtrar los datos de entrenamiento organizados en columnas
+* [Matplotlib](https://matplotlib.org/) - Usada para la visualización de superficies de decisión y gráficos estadísticos
+* [Seaborn](https://seaborn.pydata.org/) - Usada para la visualización estadística de los datos
+* [Numpy](https://numpy.org/) - Usada para operaciones entre vectores y matrices
+
+
 ## ¿Cómo colaborar con el proyecto ? 
 
-Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. También puedes contactarnos por medio de nuestras redes sociales.
+Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. También puedes contactarme por medio de mis redes sociales.
 
 
 ## Autores ✒️
