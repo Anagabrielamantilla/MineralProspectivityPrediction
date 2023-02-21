@@ -45,7 +45,9 @@ La información está organizada de la siguiente forma:
 
 * **01_Training:** datos de entrenamiento transformados con PCA sin las variables X1 y X2. Contiene nueve componentes principales. Con estos datos se entrenaron los modelos computacionales. 
 
-* **01_Virtual_Raster:** esta capa contiene nueve bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11.Con este archivo se realiza la predicción del mapa de probabilidad. Para descargarlo acceda al siguiente enlace [Virtual Raster con PCA](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EUA5rItvv6JHogINDYS0gJEB8kBQ3PA75Wjof47Sn_6rhQ?e=wO0LDs)
+* **01_Virtual_Raster:** esta capa contiene nueve bandas. Cada una corresponde a un componente principal extraído de las variables X3-X11. Con este archivo se realiza la predicción del mapa de probabilidad. Para descargarlo acceda al siguiente enlace [Virtual Raster con PCA](https://correouisedu-my.sharepoint.com/:i:/g/personal/ana_mantilla_correo_uis_edu_co/EUA5rItvv6JHogINDYS0gJEB8kBQ3PA75Wjof47Sn_6rhQ?e=wO0LDs)
+
+* **Validation:** datos de validación, en total son 20 seleccionados aleatoriamente del conjunto de entrenamiento.
 
 ### Pre-requisitos 📋
 
