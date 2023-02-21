@@ -46,7 +46,7 @@ _Para ejecutar los códigos en el lenguaje de programación Python se requiere u
 La predicción de depósitos minerales consiste en un problema de clasificación binaria, en el cual los datos tienen una etiqueta de 1 (depósito) y 0 (no-depósito). 
 Para separar las clases se genera un límite de decisión que, según el número de dimensiones, puede ser un plano o hiperplano. Por excelencia los algoritmos usados para resolver tareas de clasificación son: 
 
-* Redes neuronales artificiales: para abrirlo acceda al archivo '04_ann' o de click en el siguiente ícono:[![Open In Colab](https://drive.google.com/file/d/1HbTMgs4v314ZSNjWyfNdsb8fppiV3lWl/view?usp=sharing)
+* Redes neuronales artificiales: para abrirlo acceda al archivo '04_ann' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1HbTMgs4v314ZSNjWyfNdsb8fppiV3lWl/view?usp=sharing)
 
 * Bosques aleatorios: para abrirlo acceda al archivo '05_rf' o de click en el siguiente ícono:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/13EUaOpbWdcmTyMq1iBLpogaXlecTlPBX/view?usp=sharing)
 
