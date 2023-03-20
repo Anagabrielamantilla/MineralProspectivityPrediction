@@ -68,7 +68,7 @@ Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. Tam
 
 ## Cómo citar ✒️
 
-* Mantilla, A. (2023). Predicción de la ocurrencia de depósitos minerales tipo pórfido usando técnicas de aprendizaje automático [Tesis de pregrado inédita]. Universidad Industrial de Santander.
+* Mantilla, A. (2023). Predicción de la ocurrencia de depósitos minerales tipo pórfido usando técnicas de aprendizaje automático [Tesis de pregrado, Universidad Industrial de Santander]. https://noesis.uis.edu.co/handle/20.500.14071/12289.
 
 *Este código se encuentra protegido bajo una licencia de libre acceso. Se permite su distribución y/o modificación, siempre y cuando se consideren los créditos correspondientes. Los autores no se hacen responsables del uso de los códigos por parte de terceros.*
 
