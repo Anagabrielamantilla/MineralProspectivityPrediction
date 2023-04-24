@@ -70,7 +70,15 @@ Ayúdame difundiendo. Encuentra errores y repórtalos en un issue en GitHub. Tam
 
 * Mantilla, A. (2023). Predicción de la ocurrencia de depósitos minerales tipo pórfido usando técnicas de aprendizaje automático [Tesis de pregrado, Universidad Industrial de Santander]. https://noesis.uis.edu.co/handle/20.500.14071/12289.
 
-*Este código se encuentra protegido bajo una licencia de libre acceso. Se permite su distribución y/o modificación, siempre y cuando se consideren los créditos correspondientes. Los autores no se hacen responsables del uso de los códigos por parte de terceros.*
+*Este código se encuentra protegido bajo una licencia de libre acceso que tiene las siguientes condiciones: 
+
+- Se requiere la preservación de los avisos de derechos de autor y licencia
+- Se prohibe el uso de estos códigos con fines lucrativos
+- Los autores no se hacen responsables del uso de los códigos por parte de terceros
+- En caso de modificaciones al código, deben especificarse en un apartado donde se cite la fuente original de este: https://github.com/Anagabrielamantilla/MineralProspectivityPrediction 
+- No se permite la publicación de este código en otras plataformas bajo ninguna circunstancia sin consentimiento de los autores
+
+**Los autores prohiben eliminar, borrar o modificar este apartado***
 
 
 
