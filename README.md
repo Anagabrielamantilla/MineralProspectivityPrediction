@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/475663279.svg)](https://zenodo.org/badge/latestdoi/475663279)
 
 
-# Predicción de la ocurrencia de depósitos minerales tipo pórfido usando técnicas de aprendizaje automático
+# Predicción de zonas de prospectividad mineral usando técnicas de aprendizaje automático
 
 
 ## Descripción del repositorio
