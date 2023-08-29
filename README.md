@@ -7,7 +7,15 @@
 ## Descripción del repositorio
 
 Este repositorio tiene códigos en Python que predicen la probabilidad de ocurrencia mineral en una zona del territorio de Yukón (Canadá) usando redes neuronales
-artificiales, bosques aleatorios y máquinas de soporte vectorial. Este proyecto hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [este link](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
+artificiales, bosques aleatorios y máquinas de soporte vectorial. 
+
+## Diapositivas de la presentación
+
+Este proyecto hace parte de uno de los resultados de mi tesis de pregrado, cuyas diapositivas se encuentran en [este link](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EZV-gR6sAy5DpEWUlqelyn0BGEdKJj_XzEbV-5OfGJtnEQ?e=zhl2n9)
+
+## Presentación en el XIX Congreso Colombiano de Geología
+
+En el siguiente [enlace](https://drive.google.com/file/d/1nszDE-ZMH8Eh9iaxM6kKIbjaxiulFwRf/view?usp=sharing) se encuentra la presentación del póster en el evento. 
 
 ## Base de datos 📋
 
