@@ -15,7 +15,7 @@ Este proyecto hace parte de uno de los resultados de mi tesis de pregrado, cuyas
 
 ## Presentación en el XIX Congreso Colombiano de Geología
 
-En el siguiente [enlace](https://drive.google.com/file/d/1nszDE-ZMH8Eh9iaxM6kKIbjaxiulFwRf/view?usp=sharing) se encuentra la presentación del póster en el evento. 
+En el siguiente [enlace](https://correouisedu-my.sharepoint.com/:b:/g/personal/ana_mantilla_correo_uis_edu_co/EQsqE7fuisVKivWQdRNVRLgB-Yj2S-QPSpL0eZY2P2fD9w?e=QNHATx) se encuentra la presentación del póster en el evento. 
 
 ## Base de datos 📋
 
